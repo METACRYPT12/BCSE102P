@@ -2,3 +2,4 @@ a.exe
 .vscode/c_cpp_properties.json
 .vscode/settings.json
 output
+.vscode/tasks.json
