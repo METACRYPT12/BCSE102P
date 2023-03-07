@@ -11,6 +11,6 @@ int main()
 
         scanf("%c", &wrd[++i]);
         printf("%c", wrd[i]);
-    } while (wrd[i] != '.');
+    } while (wrd[i] != '\n');
     return 0;
 }
