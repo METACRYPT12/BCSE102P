@@ -5,7 +5,7 @@ int main()
 {
     char wrd[300];
     int a[4] = {0, 0, 0, -1};
-    int i = 0;
+    int i = -1;
     printf("Input: ");
     do
     {
@@ -19,7 +19,7 @@ int main()
             a[2]++;
         else
             a[3]++;
-    } while (wrd[i] != '\n');
+    } while (wrd[i] != '$');
     printf("\n\nUpperCase Characters: %d\nLowerCase Characters: %d\nDigits: %d\nSpecial Characters: %d\n", a[0], a[1], a[2], a[3]);
     return 0;
 }
