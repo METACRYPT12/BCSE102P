@@ -5,6 +5,7 @@ int main()
 {
     int cc = -1, cl = 1, cw = 0, i = -1;
     char a[300];
+    printf("Enter Text: \n");
     do
     {
         i = i + 1;
