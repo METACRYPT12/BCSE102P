@@ -24,5 +24,5 @@ int main()
             cw = cw + 1;
         i = i + 1;
     }
-    printf("Number of Characters: %d\nNumber of Lines: %d\nNumber of Words: %d", cc, cl, cw);
+    printf("Number of Characters: %d\nNumber of Words: %d\nNumber of Lines: %d", cc, cw, cl);
 }
